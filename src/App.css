@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+
+/* .css-selector {
+  font-family: 'Caveat', serif;
+  } */
+
+html {
+  scroll-behavior: smooth;  
+  
+}
+
+body {
+  font-family: 'Caveat', serif;
+}
+
+.navbar
+        {
+            border-bottom:1px solid #000;
+            background-color: white;
+        }
+
 .footer{
   position: absolute;
   bottom: 0;
@@ -6,65 +27,115 @@
   background-color: #222222;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
-  display: flex;
+  display: block;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(10px + 1vmin);
+  color: black;
 }
 
-.App-link {
+/* .App-link {
   color: white;
-}
+} */
 
 a
 {
    text-decoration: none !important;
-   color:white;
+   color:black;
 }
 
 a:hover
 {
    text-decoration: none !important;
-   color:white;
+   color:black;
 }
 
-#home{
-  background-color: #ff8000;
+.background1{
+  /* background-color: #990000; */
   height: 100vh; 
 }
 
-#about{
-  background-color: #990000;
-  height: 100vh; 
-}
-
-#contact{
-  background-color: #ffad33;
+.background2{
+  /* background-color: #ffad33; */
   height: 100vh; 
 }
 
 .whiteText{
-  color: white;
+  color: black;
 }
 
 .bigFont{
-  font-size: 100px;
-  --font-sans: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  font-family: 'Caveat', serif;
+  font-size: 40px;
+  /* --font-sans: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif; */
   /* font-family:Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif; */
-  -webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black;
+  /* -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black; */
 }
 
 .paddingTop60{
-  padding-top: 60px;
+  padding-top: 80px;
+}
+
+/* LOGO STYLING */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:0px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:0px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+} */
+
+#myDiv {
+  margin:0;
+  padding:0;
+}
+
+.displayNone{
+  display: none;
+}
+
+.marginZero{
+  margin:0;
+}
+
+.App-be {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-be {
+    animation: App-be-spin 1s linear;
+    animation-iteration-count: 1;
+  }
+}
+
+@keyframes App-be-spin {
+  from {
+    /* transform: rotate(0deg); */
+    transform: scaleX(-1);
+  }
+  to {
+    /* transform: rotate(360deg); */
+    transform: scaleX(1);
+  }
+}
+
+#loader{
+  padding: 25vh 0vh;
 }

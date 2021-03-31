@@ -1,14 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import reactDom from 'react-dom';
 import './App.css';
-import BodyComponent from './blakewebsite/BodyComponent';
-import HeaderComponent from './blakewebsite/HeaderComponent';
+import MainPageComponent from './blakewebsite/MainPageComponent';
 
 function App() {
   return (
     <div className="App">
-        <HeaderComponent/>    
-        <BodyComponent/>
+        <MainPageComponent/>    
     </div>
   );
 }
