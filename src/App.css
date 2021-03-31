@@ -1,16 +1,14 @@
-.App {
-  text-align: center;
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #222222;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -25,14 +23,48 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a
+{
+   text-decoration: none !important;
+   color:white;
+}
+
+a:hover
+{
+   text-decoration: none !important;
+   color:white;
+}
+
+#home{
+  background-color: #ff8000;
+  height: 100vh; 
+}
+
+#about{
+  background-color: #990000;
+  height: 100vh; 
+}
+
+#contact{
+  background-color: #ffad33;
+  height: 100vh; 
+}
+
+.whiteText{
+  color: white;
+}
+
+.bigFont{
+  font-size: 100px;
+  --font-sans: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  /* font-family:Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif; */
+  -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+}
+
+.paddingTop60{
+  padding-top: 60px;
 }
