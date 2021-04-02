@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 /* .css-selector {
   font-family: 'Caveat', serif;
@@ -81,6 +81,10 @@ a:hover
   padding-top: 80px;
 }
 
+.padding15{
+  padding: 15px;
+}
+
 /* LOGO STYLING */
 .animate-bottom {
   position: relative;
@@ -106,7 +110,15 @@ a:hover
 }
 
 .displayNone{
-  display: none;
+  display:none;
+}
+
+.displayNo{
+  visibility:hidden;
+}
+
+.displayYes{
+  visibility:visible;
 }
 
 .marginZero{

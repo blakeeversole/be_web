@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import ExperienceComponent from './ExperienceComponent'
+import ProjectsComponent from './ProjectsComponent'
 
 
 class BodyComponent extends Component{
@@ -7,27 +9,25 @@ class BodyComponent extends Component{
             <div>
                 <div id="home" className="background1 paddingTop60">
                     <div className="text-center whiteText bigFont">
-                        HOME Blake Eversole
+                        Experienced Full Stack Software Developer with a passion for problem solving and creating 
+                        solutions. Utilizes excellent communication to work collaboratively within a team. 
+                        Knowledgeable on object-oriented programming principles. Positive attitude.
                     </div>
                 </div>
                 <div id="about" className="background2 paddingTop60">
                     <div className="text-center whiteText bigFont">
-                        About Blake Eversole
+                        Experienced Full Stack Software Developer with a passion for problem solving and creating 
+                        solutions. Utilizes excellent communication to work collaboratively within a team. 
+                        Knowledgeable on object-oriented programming principles. Positive attitude.
                     </div>
                 </div>
-                <div id="experience" className="background1 paddingTop60">
-                    <div className="text-center whiteText bigFont">
-                        Experience Blake Eversole
-                    </div>
-                </div>
-                <div id="projects" className="background2 paddingTop60">
-                    <div className="text-center whiteText bigFont">
-                        Projects Blake Eversole
-                    </div>
-                </div>
+                <ExperienceComponent/>
+                <ProjectsComponent/>
                 <div id="contact" className="background1 paddingTop60">
                     <div className="text-center whiteText bigFont">
-                        Contact Blake Eversole
+                        Email: BlakeEversole@pm.me<br></br>
+                        LinkedIn: linkedin.com/in/blakeeversole<br></br>
+                        Github: github.com/blakeeversole<br></br>
                     </div>
                 </div>
             </div>         
