@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import reactDom from 'react-dom';
+// import reactDom from 'react-dom';
 import './App.css';
 import MainPageComponent from './blakewebsite/MainPageComponent';
 
