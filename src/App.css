@@ -56,7 +56,7 @@ a:hover
 
 .background1{
   /* background-color: #990000; */
-  height: 100vh; 
+  height: 60vh; 
 }
 
 .background2{
@@ -64,8 +64,24 @@ a:hover
   height: 100vh; 
 }
 
-.whiteText{
+.whiteColor{
+  color: white;
+}
+
+.whiteBackgroundColor{
+  background-color: white;
+}
+
+.blackColor{
   color: black;
+}
+
+.blackBackgroundColor{
+  background-color: black;
+}
+
+.buttonClass:hover{
+  background-color: grey;
 }
 
 .bigFont{
@@ -77,12 +93,61 @@ a:hover
 -webkit-text-stroke-color: black; */
 }
 
+.parentTriangle {
+  position: relative;
+}
+
+.childTriangle {  
+  position: absolute;
+  border-top: 200px solid white;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+}
+
+.contactBox{  
+  height: 500px; 
+  border-left: 50vw;
+  border-right: 50vw;
+}
+
 .paddingTop60{
   padding-top: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.fixLine{
+  /* margin-top: auto; */
+  margin-bottom: auto;
+}
+
+.margin15{
+  margin: 15px;
+}
+
+.margin30{
+  margin: 30px;
+}
+
+.padding5{
+  padding: 5px;
 }
 
 .padding15{
   padding: 15px;
+}
+
+.paddingLeft15{
+  padding-left: 15px;
+}
+
+.paddingBottom30{
+  padding-left: 30px;
 }
 
 /* LOGO STYLING */
