@@ -23,7 +23,7 @@ class BodyComponent extends Component{
                     <div className="blackBackgroundColor contactBox">
                         <div class="row h-100">
                             <div class="col-sm-12 autoMargin1">
-                                <div className="mulishRegular whiteColor font40 text-center">Contact Changed</div>
+                                <div className="mulishRegular whiteColor font40 text-center">Contact</div>
                                 <div className="row text-center paddingTop60">
                                     <div className="col-3"></div>
                                     <div className="col-2">
