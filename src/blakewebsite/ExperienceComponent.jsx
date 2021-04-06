@@ -14,13 +14,17 @@ class ExperienceComponent extends Component{
         return(
                 <div id="experience" className="background3 padding60">
                     <div className="text-center paddingBottom30 paddingTop60 mulishRegular font40"><u>Experience</u></div>
+                    <div className="container">
                     <div className="row paddingLeft15" style={{"padding-top":"60px"}}>
-                        <div className="col-3 border-left border-dark text-left fixLine">
-                            <button className="col-12 btn buttonClass text-left mulishLight" onClick={()=>{this.setState({show1:true, show2:false, show3: false})}}>Junior Full Stack Developer</button>
-                            <button className="col-12 btn buttonClass text-left mulishLight" onClick={()=>{this.setState({show2:true, show1:false, show3: false})}}>Account Service</button>
-                            <button className="col-12 btn buttonClass text-left mulishLight" onClick={()=>{this.setState({show3:true, show1:false, show2: false})}}>CSR</button>
+                        {/* <div className="col-4 text-center" style={{height:"20vh"}}>
+                            <img className="whiteBackgroundColor my-auto paddtingTop60 blackColor" src={pmsolutions} alt="PMSolutions" style={{width: "200px", height: "auto"}}/>
+                        </div> */}
+                        <div className="col-4 border-left border-dark text-center fixLine">
+                            <button className="col-12 btn buttonClass text-center mulishLight font20" onClick={()=>{this.setState({show1:true, show2:false, show3: false})}}>Junior Full Stack Developer</button>
+                            <button className="col-12 btn buttonClass text-center mulishLight font20" onClick={()=>{this.setState({show2:true, show1:false, show3: false})}}>Account Services</button>
+                            <button className="col-12 btn buttonClass text-center mulishLight font20" onClick={()=>{this.setState({show3:true, show1:false, show2: false})}}>CSR</button>
                         </div>
-                        <div className="col-9">
+                        <div className="col-8">
                         {
                             this.state.show1? 
                             <div className="container">
@@ -85,6 +89,7 @@ class ExperienceComponent extends Component{
                                 </div>
                             </div> : null
                         }
+                        </div>
                         </div>
                     </div>
                 </div>    

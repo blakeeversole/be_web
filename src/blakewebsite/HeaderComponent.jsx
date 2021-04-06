@@ -18,7 +18,6 @@ class HeaderComponent extends Component{
                         <li className="nav-link mulishRegular"><a href="/#experience">Experience</a></li>
                         <li className="nav-link mulishRegular"><a href="/#projects">Projects</a></li>
                         <li className="nav-link mulishRegular"><a href="/#contact">Contact</a></li>
-                        <li className="nav-link mulishRegular"><a href="https://www.google.com">Resume</a></li>
                     </ul>
                 </nav>
             </header>   

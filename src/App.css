@@ -81,17 +81,19 @@ a:hover
 
 .background1{
   /* background-color: #990000; */
-  height: 100vh; 
+  /* height: 100vh;  */
+  position: relative;
+  text-align: center;
 }
 
 .background2{
   /* background-color: #ffad33; */
-  height: 100vh; 
+  height: 105vh; 
 }
 
 .background3{
   /* background-color: #990000; */
-  height: 50vh; 
+  height: 60vh; 
 }
 
 .whiteColor{
@@ -115,7 +117,7 @@ a:hover
 }
 
 .font20{
-  font-size: 30px;
+  font-size: 29px;
 }
 
 .font40{
@@ -123,10 +125,17 @@ a:hover
 }
 
 .contactBox{  
-  height: 50vh; 
+  height: 30vh; 
   border-left: 100vw;
   border-right: 100vw;
   
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .autoMargin1{
