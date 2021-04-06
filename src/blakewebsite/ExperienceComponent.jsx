@@ -25,10 +25,10 @@ class ExperienceComponent extends Component{
                             this.state.show1? 
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-6 text-left mulishLight">Junior Software Developer</div>
+                                    <div className="col-6 text-left mulishRegular">Junior Software Developer</div>
                                 </div>                                
                                 <div className="row">
-                                    <div className="col-12 text-left notoSansRegular">MyStudentsProgress.com | Oct 2018 – Jun 2020</div>
+                                    <div className="col-12 text-left mulishLight">MyStudentsProgress.com | Oct 2018 – Jun 2020</div>
                                 </div>
                                 
                                 <div className="row">
@@ -53,10 +53,10 @@ class ExperienceComponent extends Component{
                             this.state.show2? 
                             <div>
                                 <div className="row">
-                                    <div className="col-6 text-left mulishLight">Account Services</div>
+                                    <div className="col-6 text-left mulishRegular">Account Services</div>
                                 </div>                                 
                                 <div className="row">
-                                    <div className="col-12 text-left notoSansRegular">Data Access Solutions Inc. | Jul 2016 – Oct 2018</div>
+                                    <div className="col-12 text-left mulishLight">Data Access Solutions Inc. | Jul 2016 – Oct 2018</div>
                                 </div>                                
                                 <div className="row">
                                     <div className="col-12 text-left notoSansRegular">
@@ -72,10 +72,10 @@ class ExperienceComponent extends Component{
                             this.state.show3? 
                             <div>
                                 <div className="row">
-                                    <div className="col-6 text-left mulishLight">Customer Service Representative</div>
+                                    <div className="col-6 text-left mulishRegular">Customer Service Representative</div>
                                 </div>                                
                                 <div className="row">
-                                    <div className="col-12 text-left notoSansRegular">MyStudentsProgress.com | Feb 2016 – Jul 2016</div>
+                                    <div className="col-12 text-left mulishLight">MyStudentsProgress.com | Feb 2016 – Jul 2016</div>
                                 </div>
                                 <div className="row">
                                     <div className="col-12 text-left notoSansRegular">

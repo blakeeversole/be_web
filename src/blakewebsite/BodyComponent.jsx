@@ -11,7 +11,7 @@ class BodyComponent extends Component{
         return(
             <div style={{padding:"50px"}}>
                 <div id="about" className="background2 padding60">
-                    <div className="text-center blackColor font40">
+                    <div className="text-center blackColor font40 paddingTop60">
                         Experienced Full Stack Software Developer with a passion for problem solving and creating 
                         solutions. Utilizes excellent communication to work collaboratively within a team. 
                         Knowledgeable on object-oriented programming principles. Positive attitude.
@@ -19,7 +19,7 @@ class BodyComponent extends Component{
                 </div>
                 <ExperienceComponent/>
                 <ProjectsComponent/>
-                <div id="contact" className="background1 padding60">
+                <div id="contact" className="padding60">
                     <div className="blackBackgroundColor contactBox">
                         <div class="row h-100">
                             <div class="col-sm-12 autoMargin1">
@@ -27,13 +27,13 @@ class BodyComponent extends Component{
                                 <div className="row text-center paddingTop60">
                                     <div className="col-3"></div>
                                     <div className="col-2">
-                                        <img className="float-right whiteBackgroundColor blackColor" src={emailIcon} alt="email" style={{width:"55px", height:"55px"}}/>
+                                        <a href="mailto:blakeeversole@pm.me" target="_blank" rel="noreferrer"><img className="float-right whiteBackgroundColor blackColor" src={emailIcon} alt="email" style={{width:"55px", height:"55px"}}/></a>
                                     </div>
                                     <div className="col-2">
-                                        <img className="whiteBackgroundColor blackColor" src={githubIcon} alt="github" style={{"margin-top":"3px"}} />
+                                    <a href="https://www.github.com/blakeeversole" target="_blank" rel="noreferrer"><img className="whiteBackgroundColor blackColor" src={githubIcon} alt="github" style={{"margin-top":"3px"}} /></a>
                                     </div>
                                     <div className="col-2">
-                                        <img className="float-left whiteBackgroundColor blackColor" src={linkedinIcon} alt="linkedin" />
+                                    <a href="https://www.linkedin.com/in/blakeeversole" target="_blank" rel="noreferrer"><img className="float-left whiteBackgroundColor blackColor" src={linkedinIcon} alt="linkedin" /></a>
                                     </div>                         
                                 </div>
                             </div>

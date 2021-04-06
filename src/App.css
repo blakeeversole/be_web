@@ -33,6 +33,11 @@ html {
   font-family: 'Noto Sans';
 }
 
+.notoSansLight {
+  font-family: 'Noto Sans';
+  font-weight: 200;
+}
+
 .navbar
         {
             border-bottom:1px solid #000;
@@ -104,14 +109,19 @@ a:hover
   background-color: grey;
 }
 
+.font20{
+  font-size: 30px;
+}
+
 .font40{
   font-size: 40px;
 }
 
 .contactBox{  
-  height: 500px; 
-  border-left: 50vw;
-  border-right: 50vw;
+  height: 50vh; 
+  border-left: 100vw;
+  border-right: 100vw;
+  
 }
 
 .autoMargin1{

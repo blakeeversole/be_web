@@ -14,17 +14,17 @@ class ProjectsComponent extends Component{
         return(
             <div id="projects" className="background2 padding60">
                 <div className="text-center font40 paddingBottom30 paddingTop60 mulishRegular"><u>Projects</u></div>
-                    <div className="row paddingLeft15">
+                    <div className="row paddingLeft15" style={{"padding-top":"60px"}}>
                         <div className="col-4 border border-dark text-left fixLine" style={{height:"20vh"}}>
                             PUT BOX HERE
                         </div>
                         <div className="col-8">
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-6 text-left mulishLight">Property Management Software</div>
+                                    <div className="col-12 text-left mulishRegular font20">Property Management Software</div>
                                 </div>                                
                                 <div className="row">
-                                    <div className="col-12 text-left notoSansRegular">pmsolutions.xyz</div>
+                                    <div className="col-12 text-left mulishLight">pmsolutions.xyz</div>
                                 </div>
                                 
                                 <div className="row">
@@ -53,10 +53,10 @@ class ProjectsComponent extends Component{
                         <div className="col-8">
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-6 text-left mulishLight">MyStudentsProgress.com</div>
+                                    <div className="col-6 text-left  mulishRegular font20">MyStudentsProgress.com</div>
                                 </div>                                 
                                 <div className="row">
-                                    <div className="col-12 text-left notoSansRegular">MyStudentsProgress.com</div>
+                                    <div className="col-12 text-left mulishLight">MyStudentsProgress.com</div>
                                 </div>                                
                                 <div className="row">
                                     <div className="col-12 text-left notoSansRegular">
