@@ -17,7 +17,7 @@ class ProjectsComponent extends Component{
             <div id="projects" className="background2 padding60">
                 <div className="container">
                 <div className="text-center font40 paddingBottom30 paddingTop60 mulishRegular"><u>Projects</u></div>
-                    <div className="row paddingLeft15" style={{"padding-top":"60px"}}>
+                    <div className="row paddingLeft15" style={{"paddingTop":"60px"}}>
                         <div className="col-4 text-center" style={{height:"20vh"}}>
                             <img className="whiteBackgroundColor my-auto paddtingTop60 blackColor" src={pmsolutions} alt="PMSolutions" style={{width: "200px", height: "auto"}}/>
                         </div>
@@ -51,7 +51,7 @@ class ProjectsComponent extends Component{
                     </div>
                     </div>
                     <div className="container">
-                    <div className="row paddingLeft15" style={{"margin-top":"40px"}}>                        
+                    <div className="row paddingLeft15" style={{"marginTop":"40px"}}>                        
                         <div className="col-4 text-center" style={{height:"20vh"}}>
                             <img className="whiteBackgroundColor my-auto paddtingTop60 blackColor" src={msp} alt="MSP" style={{width: "200px", height: "auto"}}/>                            
                         </div>

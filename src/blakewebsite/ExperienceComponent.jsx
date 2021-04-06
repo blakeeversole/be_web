@@ -15,7 +15,7 @@ class ExperienceComponent extends Component{
                 <div id="experience" className="background3 padding60">
                     <div className="text-center paddingBottom30 paddingTop60 mulishRegular font40"><u>Experience</u></div>
                     <div className="container">
-                    <div className="row paddingLeft15" style={{"padding-top":"60px"}}>
+                    <div className="row paddingLeft15" style={{"paddingTop":"60px"}}>
                         {/* <div className="col-4 text-center" style={{height:"20vh"}}>
                             <img className="whiteBackgroundColor my-auto paddtingTop60 blackColor" src={pmsolutions} alt="PMSolutions" style={{width: "200px", height: "auto"}}/>
                         </div> */}

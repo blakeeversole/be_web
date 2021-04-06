@@ -9,9 +9,9 @@ class HeaderComponent extends Component{
             <header>
                 <nav className="navbar navbar-expand-md fixed-top">
                     
-                    <img src={BE} alt="Blake" style={{width:"60px", height:"60px", "margin-right": "15px"}} />
-                    <div className="navbar-brand mulishSemiBold"><a href="/#about" style={{"font-size":"35px"}}>Blake Eversole<br/>
-                    <p className="mulishRegular" style={{"font-size":"15px"}}>Full Stack Developer</p></a></div>
+                    <img src={BE} alt="Blake" style={{width:"60px", height:"60px", "marginRight": "15px"}} />
+                    <div className="navbar-brand mulishSemiBold"><a href="/#about" style={{"fontSize":"35px"}}>Blake Eversole<br/>
+                    <p className="mulishRegular" style={{"fontSize":"15px"}}>Full Stack Developer</p></a></div>
                     <ul className="navbar-nav navbar-collapse justify-content-end">
                         {/* <li className="nav-link"><a href="/#home">Home</a></li> */}
                         <li className="nav-link mulishRegular"><a href="/#about">About</a></li>
