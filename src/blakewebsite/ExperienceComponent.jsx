@@ -12,7 +12,7 @@ class ExperienceComponent extends Component{
 
     render(){
         return(
-                <div id="experience" className="background1 padding60">
+                <div id="experience" className="background3 padding60">
                     <div className="text-center paddingBottom30 paddingTop60 mulishRegular font40"><u>Experience</u></div>
                     <div className="row paddingLeft15" style={{"padding-top":"60px"}}>
                         <div className="col-3 border-left border-dark text-left fixLine">
