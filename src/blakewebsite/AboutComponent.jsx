@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import BackgroundImage from '../background.jpg';
 import Blake from '../blake.png';
 
 class AboutComponent extends Component{

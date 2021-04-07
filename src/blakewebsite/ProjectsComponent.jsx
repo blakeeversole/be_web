@@ -63,7 +63,7 @@ class ProjectsComponent extends Component{
                                     <div className="col-6 text-left  mulishRegular font20">MyStudentsProgress.com</div>
                                 </div>                                 
                                 <div className="row">
-                                    <div className="col-12 text-left mulishLight"><a href="https://www.MyStudentsProgress.com" target="_blank" rel="noreferrer">MyStudentsProgress.com</a></div>
+                                    <div className="col-12 text-left mulishLight"><a href="https://msp.mystudentsprogress.com/MSP/index.cfm" target="_blank" rel="noreferrer">MyStudentsProgress.com</a></div>
                                 </div>                                
                                 <div className="row">
                                     <div className="col-12 text-left notoSansRegular">

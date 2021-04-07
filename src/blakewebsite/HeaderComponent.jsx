@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import BE from '../BE.png';
 
 
 class HeaderComponent extends Component{
