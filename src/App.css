@@ -38,11 +38,9 @@ html {
   font-weight: 200;
 }
 
-.navbar
-        {
-            border-bottom:1px solid #000;
-            background-color: white;
-        }
+.navbar{
+    background-color: white;
+}
 
 .footer{
   position: absolute;
@@ -76,23 +74,18 @@ a
 a:hover
 {
    text-decoration: none !important;
-   color:black;
+   color:#004080;
 }
 
 .background1{
-  /* background-color: #990000; */
-  /* height: 100vh;  */
   position: relative;
-  text-align: center;
 }
 
 .background2{
-  /* background-color: #ffad33; */
   height: 105vh; 
 }
 
 .background3{
-  /* background-color: #990000; */
   height: 60vh; 
 }
 
@@ -104,16 +97,22 @@ a:hover
   background-color: white;
 }
 
+.blueBackgroundColor{
+  background-color: #004080;  
+  border-radius: 4px;
+}
+
 .blackColor{
   color: black;
 }
 
 .blackBackgroundColor{
-  background-color: black;
+  background-color: #004080;
 }
 
 .buttonClass:hover{
-  background-color: grey;
+  background-color: #004080;
+  color:white;
 }
 
 .font20{
